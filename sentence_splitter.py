@@ -1,4 +1,3 @@
-import pickle
 import torch
 from transformers import AutoModelForTokenClassification
 from transformers import AutoTokenizer

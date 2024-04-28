@@ -1,4 +1,4 @@
-from flask import Flask, json, g, request, jsonify, json
+from flask import Flask, json, request, json
 import sentence_splitter
 app = Flask(__name__)
 
