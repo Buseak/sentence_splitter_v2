@@ -4,7 +4,7 @@ from transformers import AutoTokenizer
 
 class SentenceSplitter:
   def __init__(self):
-    self.model = AutoModelForTokenClassification.from_pretrained("model")
+    self.model = AutoModelForTokenClassification.from_pretrained("Buseak/sentence_splitter_final_v2")
     self.tokenizer = AutoTokenizer.from_pretrained("tokenizer")
 
   def split_sentences(self, sent):
